@@ -79,7 +79,7 @@ NAV-BAR-2
 }
 
 .section-1{
-    background-image: url("images/banner_bg.jpg");
+    background-image: url(images/banner_bg.jpg);
     background-position: center;
     background-size: cover;
     width:100%;
