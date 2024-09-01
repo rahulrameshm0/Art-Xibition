@@ -102,6 +102,7 @@ NAV-BAR-2
     font-size: 5.2rem;
     text-transform: capitalize;
     margin-bottom: 3.2rem;
+    font-weight: 800;
 }
 
 .btn{
@@ -115,6 +116,20 @@ NAV-BAR-2
 
 .btn:hover{
     background-color: #f1f3f5;
+    color: #000;
 }
 
+.container-2{
+    text-align: center;
+}
 
+.event-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 3.4rem;
+}
+
+.event-img img{
+   margin: 1rem;
+}
