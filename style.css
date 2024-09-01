@@ -119,6 +119,8 @@ NAV-BAR-2
     color: #000;
 }
 
+/* SECTION-2 */
+
 .container-2{
     text-align: center;
 }
@@ -133,3 +135,77 @@ NAV-BAR-2
 .event-img img{
    margin: 1rem;
 }
+
+/*
+SECTION-3 
+ */
+
+
+ .section-3{
+    padding:4.6rem 12.4rem ;
+ }
+
+ .container-3{
+    display: flex;
+    align-items: center;
+    gap: 9.4rem;
+ }
+
+ .venue-head{
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 2.4rem;
+ }
+
+ .venue-details{
+    font-size: 1.4rem;
+    line-height:2;
+    color: #504e4e;
+    font-weight: 200;
+ }
+
+ .venue-details a{
+    text-decoration: none;
+ }
+ .venue-details a:hover{
+   color: rgb(23, 7, 168);
+ }
+
+ .location{
+    font-size: 2.4rem;
+    font-weight:800;
+    margin-bottom: 2.4rem;
+ }
+
+ .location-icon{
+   align-items: center;
+ }
+
+ .location-details{
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #504e4e;
+    line-height: 1.8;
+ }
+
+ .visit-section a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 400;
+    color: #969494;
+    line-height: 1.6;
+    transition: all 0.3s;
+ }
+
+ .visit-section a:hover{
+    color: #504e4e;
+ }
+
+ .arrow-icon{
+    align-items: center;
+    font-weight: 600;
+ }
+
+ .section-4 img{
+   width: 100%;
+ }
