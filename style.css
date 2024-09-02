@@ -207,5 +207,93 @@ SECTION-3
  }
 
  .section-4 img{
-   width: 100%;
+    width: 100%;
+  }
+
+ /************
+    SECTION-5 
+  *************/
+
+.section-5{
+    padding: 4.4rem ;
+}
+
+ .venue-ticket{
+    text-align: center;
+    margin-bottom: 3.4rem;
+    font-size: 3rem;
+    font-weight: 700;
+ }
+
+ .event-details{
+    display: flex;
+    justify-content: center;
+    gap: 2.4rem;
+ }
+
+ .event-details figure img{
+    width: 100%; 
+ }
+
+ /* .purchase-btn{
+    display: flex;
+    background-color: #6C757D;
+    padding: 12rem 0rem;
+    border-radius: 1.2rem;
+ } */
+
+ .p-ticket{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    color: #fff;
+    background-color: #5D656C;
+    padding: 2.4rem 2.8rem;
+ }  
+
+ .button{
+    border: none;
+    padding: 0.8rem 2.2rem;
+    transform: rotate(270deg);
+    font-size: 1.4rem;
+ }
+
+
+ .music-hall-name{
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 2.2;
+ }
+
+ .lorem{
+    font-size: 1.4rem;
+    font-weight: 200;
+    line-height: 1.8;
+ }
+
+ .cup {
+    font-size: 1.6rem;
+    font-weight: 300;
+ }
+
+ .cup{
+    display: flex;
+    align-items: center;
+    gap: 3.4rem;
+ }
+
+ .ticket-icon{
+    display: inline-block;
+    align-items: center;
+ }
+
+ .ticket-price{
+    font-size:1.8rem;
+    font-weight: 200;
+ }
+
+ .ticket-price strong{
+    font-weight: 600;
+    font-size: 1.8rem;
  }
