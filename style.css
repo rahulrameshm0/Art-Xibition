@@ -80,6 +80,10 @@ NAV-BAR-2
     color: #8e8e8e;
 }
 
+/**************
+   SECTION-2
+ ***************/
+
 .section-1{
     background-image: url(images/banner_bg.jpg);
     background-position: center;
@@ -121,7 +125,9 @@ NAV-BAR-2
     color: #000;
 }
 
-/* SECTION-2 */
+/**************
+   SECTION-2
+***************/
 
 .container-2{
     text-align: center;
@@ -138,9 +144,9 @@ NAV-BAR-2
    margin: 1rem;
 }
 
-/*
-SECTION-3 
- */
+/************
+   SECTION-3 
+ *************/
 
 
  .section-3{
@@ -207,6 +213,10 @@ SECTION-3
     align-items: center;
     font-weight: 600;
  }
+
+ /*************
+   SECTION-4 
+  *************/
 
  .section-4 img{
     width: 100%;
@@ -300,7 +310,9 @@ SECTION-3
     font-size: 1.8rem;
  }
 
- /* SECTION-6 */
+ /*************
+   SECTION-6 
+  *************/
 
 .section-6{
    background-color:#5D656C;
