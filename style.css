@@ -534,7 +534,7 @@ input[type="email"]::placeholder{
    display: flex;
    list-style: none;
    align-items: center;
-   gap: 2.4rem;
+   gap: 6.4rem;
    
 }
 

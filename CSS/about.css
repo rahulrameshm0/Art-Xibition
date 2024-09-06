@@ -8,6 +8,10 @@
     font-size: 62.5%;
 }
 
+/****************
+    SECTION-9 
+ ****************/
+
 .section-9{
     background-image:url(images/about_bg.jpg);
     height: 80vh;
@@ -18,7 +22,8 @@
 
 .radio-city{
     color: #fff;
-    padding: 8rem 0 0 6.4rem;
+    text-align: center;
+    padding-top: 20%;
 }
 
 .musical-hall{
@@ -32,11 +37,14 @@
     font-weight: 300;
 }
 
+/***************
+    SECTION-10
+ ***************/
 
 .ticket-amount{
     display: flex;
     justify-content: center;
-    margin-top:6.8rem;
+    margin-top:6.8rem;;
 }
 
 .ticket-amount img{
@@ -44,6 +52,11 @@
     width: auto;
     height: 90%;
     width: 100%;
+}
+
+.ticket-icon{
+    display: inline-flex;
+    align-items: center;
 }
 
 figure img{
@@ -88,4 +101,107 @@ figure img{
 
 .purchase-ticket-btn:hover{
     background-color: #555454;
+}
+
+/******************
+    SECTION-11
+ ******************/
+
+ .container-11{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 2.4rem;
+    padding: 4.2rem 9.2rem;
+}
+
+
+ .sec-11-head{
+    font-size: 2.4rem;
+    font-weight: 700;
+ }
+
+ .about-show{
+    font-size: 1.4rem;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    font-weight: 300;
+    line-height: 2;
+ }
+
+ .about-show a{
+   text-decoration: none;
+   font-weight: 200;
+ }
+
+ .item-restricted{
+    font-size: 2.4rem;
+    font-weight: 700;
+ }
+
+ .restricted-list{
+    list-style: none;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+ }
+
+ .parking{
+    font-size: 2.4rem;
+    font-weight: 700;
+ }
+
+
+.parking-details{
+    margin-top: 2.4rem; 
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2;
+    margin-bottom: 1.8rem;                              
+}
+
+.directions{
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #646363;
+    transition: all 0.3s;
+}
+
+.directions span{
+    font-size: 1.4rem;
+    font-weight: 900;
+    transition: all 0.3s ease;
+    margin-left: 0.5rem;
+    display: inline-block;
+}
+
+.directions:hover span {
+    transform: translateX(0.5rem);
+}
+
+.directions:hover{
+    color: #000;
+}
+
+.show-ticket h4{
+    font-size: 1.8rem;
+    font-weight: 800;
+
+}
+
+.show-ticket-list{
+    list-style: none;
+    border: 1px dotted black;
+}
+
+.show-ticket-list h5{
+    display: inline-block;
+    font-size: 1.6rem;
+}
+
+.show-ticket-list span{
+    font-size: 1.4rem;
 }
