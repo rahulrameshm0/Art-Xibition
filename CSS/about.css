@@ -186,6 +186,10 @@ figure img{
     color: #000;
 }
 
+.show-ticket{
+    padding: 1.2rem;
+}
+
 .show-ticket h4{
     font-size: 1.8rem;
     font-weight: 800;
@@ -195,13 +199,40 @@ figure img{
 .show-ticket-list{
     list-style: none;
     border: 1px dotted black;
+    margin-bottom: 1.5rem;
+    padding: 1.8rem 2.4rem;
+    
 }
 
 .show-ticket-list h5{
     display: inline-block;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
+    margin: 0;
 }
 
 .show-ticket-list span{
+    display: block;
     font-size: 1.4rem;
 }
+
+.fetival-list-carry{
+    display: flex;  
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+ }
+ 
+ .cart-icon{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 2.4rem;
+    background-color: #625f5fed;
+    width: 2rem;
+    height: 2rem;
+    padding: 1.2rem;
+    color: #fff;
+ }
+
