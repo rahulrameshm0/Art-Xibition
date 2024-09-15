@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.section-13{
+    background-image:url(images/rent_venue_bg.jpg) ;
+    height: 40vh;
+    width: 100%;
+}
+
+.container-13{
+    color: #fff;
+    text-align: center;
+    padding-top: 6%;
+}
+
+.venue-h{
+    font-size: 5.4rem;
+    line-height: 2;
+    font-weight: 900;
+}
+
+.head-p{
+    font-size: 2rem;
+    line-height: 1.6;
+    font-weight: 200;
+}
+
+/***************
+    SECTION=-14
+ ***************/
+
+.container-14{
+    padding: 2.4rem 12.8rem;
+}
+
+.nav-bar-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6.4rem;
+}
+
+.hall-list{
+    display: flex;
+    list-style: none;
+    gap: 2.4rem;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+
+
+.btn-3{
+    border: none;
+}
+
+.hall-list a{
+    text-decoration: none;
+    color: #000;
+}
+
+.square-hall{
+    margin-bottom: 2.4rem;
+    font-size: 2.4rem;
+}
+
+
+.square-garden{
+    display: flex;
+    align-items:center ;
+    gap: 2.4rem;
+}
+
+iframe{
+    height: 30rem;
+    width: 50rem;
+}
+.div-paragraph-1{
+    font-size: 1.8rem;
+    margin-bottom: 2.4rem;
+    line-height: 1.6;
+    font-weight: 200;
+}
+
+.div-paragraph-2{
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-weight: 200;
+}
