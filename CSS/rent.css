@@ -53,18 +53,34 @@ html{
     gap: 2.4rem;
     align-items: center;
     text-transform: capitalize;
-    font-size: 1.4rem;
-}
-
-
-.btn-3{
-    border: none;
+    font-size: 1.6rem;
+    transition: all 0.3s;
 }
 
 .hall-list a{
     text-decoration: none;
     color: #000;
 }
+
+.hall-list a:hover{
+    color: #696868;
+}
+
+
+.btn-3{
+    border: none;
+    padding: 1.4rem 2rem;
+    font-size: 1.6rem;
+    background-color: #2e2c2c;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn-3:hover{
+    background-color: #454444;
+}
+
 
 .square-hall{
     margin-bottom: 2.4rem;
@@ -93,4 +109,58 @@ iframe{
     font-size: 1.8rem;
     line-height: 1.6;
     font-weight: 200;
+}
+
+.square-garden-list{
+    display: flex;
+    list-style: none;
+    font-size: 1.4rem;
+    align-items: center;
+    gap: 20%;
+    margin-top: 2.4rem;
+    border-top: 1px dotted #cecece;
+    border-bottom: 1px dotted #cecece;
+    font-size: 1.4rem;
+    font-weight: 200;
+    padding: 2rem 0;
+    color:#a3a0a0;
+}
+
+.question{
+    padding-top: 1.8rem;
+    font-size: 2.6rem;
+    margin-bottom: 1.8rem;
+}
+
+.answer{
+    font-size: 1.6rem;
+    font-weight: 200;
+    margin-bottom: 1.8rem;
+    line-height: 1.6;
+}
+
+.location-status{
+    display: inline-flex;
+    align-items:center ;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #a3a0a0;
+    transition:  all 0.2s;
+
+}
+
+.location-status span{
+    font-size: 2rem;
+    font-size: 800;
+    transition: all 0.3s ease;
+    margin-left: 0.5rem;
+}
+
+.location-status:hover{
+    color: #000;
+}
+
+
+.location-status:hover span {
+    transform: translateX(0.5rem);
 }
