@@ -164,3 +164,74 @@ iframe{
 .location-status:hover span {
     transform: translateX(0.5rem);
 }
+
+
+/**************
+    SECTION 15
+ **************/
+
+ .section-15{
+    margin-top: 8.4rem;
+    padding-left: 12rem;
+    margin-bottom: 9rem;
+ }
+
+.reservation{
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+ .user-input-details{
+    display: flex;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 3.8rem;
+    gap: 3.2rem;
+ }
+
+ .user-input input[type="text"]{
+    text-transform: capitalize;
+    padding-left: 1.4rem ;
+    font-weight: 200;
+    font-size: 1.2rem;
+
+ }
+
+ .user-input input{
+    width: 100%;
+    height: 5vh;
+    outline: none;
+    margin-bottom: 2.4rem;
+    border: 1px solid #cecece;
+ }
+
+ .input-text{
+    width: 100%;
+    height: 20vh;
+    border: 1px solid #cecece;  
+    outline: none;
+ }
+
+ .input-text[type="text"]{
+    text-transform: capitalize;
+    padding:1.4rem 1.4rem;  
+    font-size: 1.2rem;
+    width: 65%;
+    height: 20vh;   
+
+ }
+
+ .btn-4{
+    margin-top: 2.4rem;
+    border: none;
+    font-size: 1.4rem;
+    padding: 1.4rem 2rem;
+    color: #fff;
+    background-color: #3c3b3b;
+    transition: all 0.3s;
+ }
+
+ .btn-4:hover{
+    background-color: #6e6e6e;
+ }
