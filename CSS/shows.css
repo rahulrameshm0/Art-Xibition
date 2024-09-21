@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+
+}
+
+.section-13{
+    background-image: url(images/shows_events_bg.jpg);
+    width: 100vw;
+    height:40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-13{
+    text-align: center;
+    padding: 8%;
+    color: #fff;
+}
+
+.shows-events{
+    font-size:5.4rem;
+    font-weight: 800;
+    margin-bottom: 1.8rem;
+    text-transform: capitalize;
+}
+
+.upcoming-shows{
+    font-size: 2.4rem;
+    font-weight: 200;
+}
+/*****************
+    SECTION-16
+ *****************/
+
+
+.nav-bar-4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8rem 12.4rem;
+}
+
+.container-14{
+    border-bottom: 1px dotted #b4b4b4;
+}
+
+.upcoming-list{
+    display: flex;
+    list-style: none;
+    gap: 2.4rem;
+
+}
+
+.upcoming-list a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #414040;
+}
+
+.btn-4{
+    border: none;
+    padding: 1.4rem 2.2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background-color: #3c3c3c;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.btn-4:hover{
+    background-color: #504f4f;
+}
+
