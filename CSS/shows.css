@@ -36,9 +36,11 @@ html{
     font-weight: 200;
 }
 /*****************
-    SECTION-16
+    SECTION-14
  *****************/
-
+.section-14{
+    background-color: #F5F5F5;
+}
 
 .nav-bar-4{
     display: flex;
@@ -77,4 +79,166 @@ html{
 .btn-4:hover{
     background-color: #504f4f;
 }
+
+/*
+    SECTION-15
+ */
+
+ .section-15{
+    padding-top: 8.6rem;
+    background-color: #F5F5F5;
+ }
+
+ .container-15{
+    padding: 1.8rem 12.4rem;
+    display: flex;
+    gap: 6.4rem;
+    justify-content: center;
+ }
+
+
+
+ .up{
+    margin-bottom: 2.4rem;
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #6b6b6b;
+ }
+
+ .sort{
+    list-style: none;
+    border-bottom:1px dotted gray;
+    padding:1.8rem 2rem;
+ }
+
+ .sort li{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+ }
+
+ .sort a{
+    text-decoration: none;
+    color: #959595;
+    font-weight: 200;
+    transition: all 0.3s;
+ }
+
+ .sort a:hover{
+    color: #000;
+ }
+
+.upcoming-list-item{
+    background-color: #fff;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 1rem 2.8rem;
+}
+
+.sorting-list{
+    font-weight: 800;
+    font-size:1.6rem;
+}
+
+.h-list{
+    margin-top: 1.2rem;
+    font-weight: 700;
+}
+
+.lorem{
+    display: flex;
+    align-items: stretch;
+    gap: 2.8rem;
+    margin-top: 1.8rem;
+    border: 1px dotted #e0dbdb;
+    padding:0 1.8rem;
+}
+
+.img{
+    width: 30%;
+    height: 100%;
+}
+
+.land-festival{
+    margin-top: 4.2rem;
+}
+
+.festival-head{
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.lorem-paragraph{
+    margin-bottom: 3.8rem;
+    font-size: 1.8rem;
+    font-weight:200;
+} 
+
+
+.lorem a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #3c3c3c;
+    padding: 1.4rem 2rem;
+    transition: all 0.3s;
+}
+
+.lorem a:hover{
+    background-color: #555454;
+}
+
+.festival-list{
+    margin-top: 2.4rem;
+    font-size: 1.6rem;
+}
+
+.lorem-h{
+    font-size: 1.6rem;
+    line-height: 1.8;
+    font-weight: 600;
+}
+
+.festival-list li{
+    list-style: none;
+    margin-top: 1.6rem;
+    border-bottom: 1px dotted #bcbaba;
+    padding: 0.5rem;
+}
+
+.list-icon{
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+} 
+
+
+ .next-item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5.2rem;
+    gap: 2.2rem;
+    margin-bottom: 2.8rem;
+ }
+ 
+ .next-item .next-item-2 a{
+    background-color: #3c3c3c; 
+    color: #fff; 
+ }
+
+ .next-item a{
+    text-decoration: none;
+    font-size: 1.6rem;
+    background-color: #eaeaea;
+    color: #000;
+    padding: 1.2rem 1.6rem;
+    transition: all 0.3s;
+ }
+
+ .next-item a:hover{
+    background-color: #3c3c3c;
+    color: #fff;
+ }
 
