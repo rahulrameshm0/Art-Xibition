@@ -75,6 +75,7 @@ html{
     color: #fff;
     cursor: pointer;
     transition: all 0.3s;
+    text-decoration: none;
 }
 
 .btn-3:hover{
