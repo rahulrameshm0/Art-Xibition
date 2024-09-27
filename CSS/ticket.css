@@ -113,6 +113,8 @@
  figure img{
     width: 100%;
     display: block;
-    margin: auto;
  }
 
+.section-18{
+    color: yellow;
+}
