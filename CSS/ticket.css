@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-16{
+    background-image: url(images/shows_events_bg.jpg);
+    width: 100vw;
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-16{
+    text-align: center;
+    color: #fff;
+    padding-top:10%;
+}
+
+.ticket-sale{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.grab-ticket{
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+.ticket-booking{
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.shows-and-events{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.2rem;
+    /* background-color: #7d8286; */
+}
+
+.show-section{
+    background-color: #8e9092;
+    padding: 2.4rem;
+    padding-top: 2.8rem;
+    display: flex;
+    gap: 5.2rem;
+}
+
+
+
+.options{
+    border: none;
+    outline: none;
+    background-color: #8e9092;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 200;
+    border-bottom: 1px solid #fff;
+}
+
+.submit-section{
+    text-decoration: none;
+    color: #e7e2e2;
+    background-color: #464748;
+    padding: 1rem 3.4rem;
+    font-size: 1.4rem;
+    transition: all 0.3s;
+}
+
+.submit-section:hover{
+    background-color: #6a6a6a;
+}
+
+/*************
+    SECTION-18
+ *************/
+
+ .ticket-page-1{
+    margin-top: 12rem;
+    text-align: center;
+    font-weight:700;
+    font-size: 3rem;
+ }
+
+ .ticket-and-venues{
+    justify-items: center;
+    gap: 1rem;
+ }
+
+
+.div-section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+    margin-bottom: 1.8rem;
+}
+
+
+.div-section-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+}
+
+ figure img{
+    width: 100%;
+    display: block;
+    margin: auto;
+ }
+
